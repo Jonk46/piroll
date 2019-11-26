@@ -1,0 +1,27 @@
+@media (min-width: 1200px) {}
+
+@media (max-width: 991px) {
+  .page-footer, .footer-logo {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .page-footer i.fab {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 991px) {}
+
+@media (max-width: 767px) {
+  .top-navigation {
+    flex-direction: column;
+  }
+  .top-navigation .nav-item {
+    border: none;
+  }
+  .nav-item-logo {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 575px) {}
