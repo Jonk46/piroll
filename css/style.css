@@ -126,7 +126,7 @@ button.contact-us {
 }
 
 .top__item-fon {
-  background-color: rgba(0, 0, 0, .55);
+  background-color: rgba(0, 0, 0, .35);
   height: 100vh;
 }
 
@@ -165,20 +165,6 @@ button.contact-us {
 }
 
 .top__slider .slick-dots li.slick-active button:before {
-  color: #10c9c3;
-}
-
-.top__to-go {
-  position: absolute;
-  bottom: 40px;
-  left: 0;
-  right: 0;
-  z-index: 20;
-  text-align: center;
-}
-
-.top__to-go a {
-  font-size: 30px;
   color: #10c9c3;
 }
 
@@ -259,7 +245,6 @@ a.stripe-black::after {
 }
 
 /* SECTION-GALLERY end */
-
 
 /* SINGLE-ITEM-CAROUSEL  start */
 
@@ -356,13 +341,57 @@ a.stripe-black::after {
 
 /* PROFFESIONALS-SKILLS end */
 
+/* INFORMATION strart */
+
+.information {
+  background-color: #10c9c3;
+}
+
+.info-block-number {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.info-block-name {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 30px;
+}
+
+.info-block {
+  position: relative;
+  padding-left: 100px;
+}
+
+.info-block::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  width: auto;
+  background-image: url(../img/icon-custom.svg);
+  background-repeat: no-repeat;
+}
+
+/* INFORMATION end */
+
 /* SECTION-BRENDS START */
+
 .section-brends img {
   max-width: 100%;
   height: auto;
 }
-/* SECTION-BRENDS END */
 
+/* SECTION-BRENDS END */
 
 /* PROJECT-FORM start */
 
