@@ -178,8 +178,8 @@ button.contact-us {
 }
 
 .top__to-go a {
-  font-size: 24px;
-  color: #fff;
+  font-size: 30px;
+  color: #10c9c3;
 }
 
 /* CAROUSEL end */
@@ -286,6 +286,14 @@ button.contact-us {
 }
 
 /* PROFFESIONALS-SKILLS end */
+
+/*  */
+.section-brends img {
+  max-width: 100%;
+  height: auto;
+}
+/*  */
+
 
 /* PROJECT-FORM start */
 
