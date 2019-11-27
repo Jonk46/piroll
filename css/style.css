@@ -28,14 +28,16 @@ header {
   z-index: 15;
 }
 
-.navbar-brand img {
+/* як вставити логотип svg ??? */
+
+/* .navbar-brand {
   display: block;
   text-indent: -9999px;
   width: auto;
   height: 25px;
   background: url(../img/icon-logo.svg);
   background-size: contain;
-}
+} */
 
 header .nav-item {
   color: #191919;
@@ -205,6 +207,10 @@ button.contact-us {
   background-color: #10c9c3;
 }
 
+.progress {
+  height: 4px;
+}
+
 .proffesional-skills .right {
   padding: 0 0;
   background-color: #666666;
@@ -322,6 +328,32 @@ a.stripe-black::after {
 }
 
 /* SECTION-GALLERY end */
+
+/* WORK-PROCESS start */
+
+.ytp-chrome-top, .ytp-show-cards-title {
+  display: none!important;
+}
+
+/* WORK-PROCESS end */
+
+/* IDEAS START */
+
+.ideas-name {
+  color: #555555;
+  font-size: 22px;
+}
+
+.ideas-description {
+  color: #8c8c8c;
+}
+
+.ideas-block img {
+  width: auto;
+  height: 39px;
+}
+
+/* IDEAS END */
 
 /* SINGLE-ITEM-CAROUSEL  start */
 
