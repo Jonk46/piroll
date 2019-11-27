@@ -5,7 +5,7 @@ font-family: 'Nunito Sans', sans-serif;
 
 body {
   min-width: 320px;
-  font-size: 14px;
+  font-size: 16px;
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 400;
 }
@@ -28,8 +28,18 @@ header {
   z-index: 15;
 }
 
+.navbar-brand img {
+  display: block;
+  text-indent: -9999px;
+  width: auto;
+  height: 25px;
+  background: url(../img/icon-logo.svg);
+  background-size: contain;
+}
+
 header .nav-item {
-  text-transform: uppercase;
+  color: #191919;
+  font-size: 16px;
   margin-left: 10px;
 }
 
@@ -47,16 +57,20 @@ header .nav-item a:hover::after {
   transform: scale(1);
 }
 
+header .nav-link.active::after {
+  transform: scale(1);
+}
+
 /* NAVIGATION end */
 
-/* CAROUSEL start */
+/* TOP-CAROUSEL start */
 
 .wrapper-carousel {
   padding-left: 0;
   padding-right: 0;
 }
 
-.top {
+.top-carousel {
   height: 100vh;
 }
 
@@ -168,15 +182,78 @@ button.contact-us {
   color: #10c9c3;
 }
 
-/* CAROUSEL end */
+/* TOP-CAROUSEL end */
 
 /* ABOUT-US start */
 
 .subtitle-about-us {
+  color: #787878;
   max-width: 585px;
 }
 
 /* ABOUT-US end */
+
+/* PROFFESIONALS-SKILLS start */
+
+.proffesional-skills .left {
+  background: url(../img/skills-bg.png);
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.progress-bar {
+  background-color: #10c9c3;
+}
+
+.proffesional-skills .right {
+  padding: 0 0;
+  background-color: #666666;
+}
+
+/* PROFFESIONALS-SKILLS end */
+
+/* INFORMATION strart */
+
+.information {
+  background-color: #10c9c3;
+}
+
+.info-block-number {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.info-block-name {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 30px;
+}
+
+.info-block {
+  position: relative;
+  padding-left: 100px;
+}
+
+.info-block::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  width: auto;
+  background-image: url(../img/icon-custom.svg);
+  background-repeat: no-repeat;
+}
+
+/* INFORMATION end */
 
 /* SECTION-GALLERY start */
 
@@ -326,64 +403,6 @@ a.stripe-black::after {
 
 /* SINGLE-ITEM-CAROUSEL  end */
 
-/* PROFFESIONALS-SKILLS start */
-
-.proffesional-skills .left {
-  background: url(../img/skills-bg.png);
-  background-repeat: repeat;
-  background-size: cover;
-}
-
-.proffesional-skills .right {
-  padding: 0 0;
-  background-color: #666666;
-}
-
-/* PROFFESIONALS-SKILLS end */
-
-/* INFORMATION strart */
-
-.information {
-  background-color: #10c9c3;
-}
-
-.info-block-number {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 24px;
-  line-height: 30px;
-}
-
-.info-block-name {
-  position: relative;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 12px;
-  line-height: 30px;
-}
-
-.info-block {
-  position: relative;
-  padding-left: 100px;
-}
-
-.info-block::before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 70px;
-  width: auto;
-  background-image: url(../img/icon-custom.svg);
-  background-repeat: no-repeat;
-}
-
-/* INFORMATION end */
-
 /* SECTION-BRENDS START */
 
 .section-brends img {
@@ -419,7 +438,7 @@ button.button-message {
 
 /* PROJECT-FORM end */
 
-/* SECTION FOOTER start */
+/* PAGE-FOOTER start */
 
 footer.page-footer {
   background-color: #141414;
@@ -461,4 +480,4 @@ address strong {
   color: #e7f4f8;
 }
 
-/* SECTION FOOTER end */
+/* PAGE-SECTION FOOTER end */
