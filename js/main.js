@@ -3,7 +3,7 @@ $(function(){
 		arrows: false,
 		dots: true,
 		autoplay: true,
-		aytoplaySpedd: 3000,
+		aytoplaySpedd: 2000,
 		fade: true,
 	});
 	$('.slick-prev').click(function(){
@@ -18,7 +18,7 @@ $(function(){
 		arrows: false,
 		dots: true,
 		autoplay: true,
-		autoplaySpeed: 3000,
+		autoplaySpeed: 2000,
 		fade: true,
 	});
 

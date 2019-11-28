@@ -84,20 +84,20 @@ header .nav-link.active::after {
   text-align: center;
   transform: translate(-50%, -50%);
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
 }
 
 .top__title {
   font-size: 15px;
   line-height: 26px;
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
 }
 
 .top__suptitle {
   position: relative;
   font-size: 38px;
   line-height: 44px;
-  font-family: 'Italianno', cursive;
+  /* font-family: 'Italianno', cursive; */
   margin-bottom: 40px;
   margin-top: 110px;
 }
@@ -149,7 +149,7 @@ button.contact-us {
   position: absolute;
   top: 50%;
   transform: translate(0, -50%);
-  left: 35px;
+  left: 0;
 }
 
 .top__slider .slick-dots li button {
@@ -196,6 +196,16 @@ button.contact-us {
   padding-right: 0!important;
 }
 
+input.modal-empty-area, textarea.modal-empty-area {
+  background-color: #e1efef;
+  border-radius: 0;
+}
+
+textarea.modal-empty-area {
+  resize: none;
+  overflow: auto;
+}
+
 /* ABOUT-US end */
 
 /* PROFFESIONALS-SKILLS start */
@@ -228,7 +238,7 @@ button.contact-us {
 }
 
 .info-block-number {
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
   font-weight: 500;
   color: #ffffff;
   font-size: 20px;
@@ -237,7 +247,7 @@ button.contact-us {
 
 .info-block-name {
   position: relative;
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
   font-weight: 500;
   color: #ffffff;
   font-size: 12px;
@@ -276,7 +286,7 @@ button.contact-us {
 }
 
 a.text-portfolio {
-  font-family: 'Public Sans', sans-serif;
+  /* font-family: 'Public Sans', sans-serif; */
   color: #fff;
   margin: 0 0 1rem 0;
   font-size: 30px;
