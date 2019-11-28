@@ -192,6 +192,10 @@ button.contact-us {
   max-width: 585px;
 }
 
+.modal-contact-us {
+  padding-right: 0!important;
+}
+
 /* ABOUT-US end */
 
 /* PROFFESIONALS-SKILLS start */
@@ -320,6 +324,7 @@ a.stripe-black::after {
 
 .image-wrapper:hover .gallery-img {
   background: rgba(0, 0, 0, .9);
+  opacity: .8;
 }
 
 .image-wrapper:hover .middle {
@@ -400,7 +405,8 @@ a.stripe-black::after {
 }
 
 .single-item .slick-dots li.slick-active button:before {
-  border-color: red;
+  border-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .single-item .slick-dots li button:before {
