@@ -19,6 +19,56 @@ ul, li {
   list-style: none;
 }
 
+/* burger menu start */
+
+.icon-burg {
+	width: 38px;
+	height: 38px;
+}
+
+.overlay {
+	height: 0%;
+	width: 100%;
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+	overflow-y: hidden;
+	transition: 0.5s;
+}
+
+.overlay-content {
+	position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+	width: 100%;
+	text-align: center;
+}
+
+.overlay a {
+	padding: 8px;
+	text-decoration: none;
+	font-size: 36px;
+	color: #f5eee8;
+	display: block;
+	transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+	color: #f1f1f1;
+}
+
+.overlay .closebtn {
+	position: absolute;
+	top: 50px;
+	right: 15px;
+	font-size: 60px;
+}
+
+/* burger menu end */
+
 /* NAVIGATION start */
 
 header {
@@ -495,6 +545,12 @@ button.button-message {
   background-color: #4bcaff;
   border-color: #4bcaff;
   border-radius: 0;
+}
+
+.btn-primary:hover {
+  color: #141414;
+  background-color: #71E4E0;
+  border-color: #71E4E0;
 }
 
 /* PROJECT-FORM end */

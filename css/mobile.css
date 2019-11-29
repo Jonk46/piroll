@@ -10,9 +10,14 @@
   }
 }
 
-@media (max-width: 991px) {}
+@media (min-width: 992px) {
+  .icon-burg {
+    display: none;
+  }
+}
 
 @media (max-width: 767px) {
+
   .top-navigation {
     flex-direction: column;
   }

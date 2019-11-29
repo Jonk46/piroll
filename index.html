@@ -14,14 +14,28 @@
 </head>
 
 <body>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content menu-home">
+          <!-- повішати правильні якорі -->
+          <a href="#" target="_self" onclick="closeNav()">Home</a>
+          <a href="#" target="_self" onclick="closeNav()">About</a>
+          <a href="#" target="_self" onclick="closeNav()">Work</a>
+          <a href="#" target="_self" onclick="closeNav()">Process</a>
+          <a href="#" target="_self" onclick="closeNav()">Services</a>
+          <a href="#" target="_self" onclick="closeNav()">Testimonials</a>
+          <a href="#" target="_self" onclick="closeNav()">Contact</a>
+        </div>
+      </div>
+
   <header>
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-        </button>
+        </button> -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav text-uppercase ml-auto">
             <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
@@ -33,6 +47,8 @@
             <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
           </ul>
         </div>
+        <img class="icon-burg" src="img/burger.svg" alt="burger" onclick="openNav()">
+        <!-- <span class="icon-burg" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span> -->
       </nav>
     </div>
   </header>
@@ -117,9 +133,9 @@
   </section>
 
   <section class="proffesional-skills pt-5">
-    <div class="container">
+    <div class="container left">
       <div class="row">
-        <div class="col-lg-6 align-self-center left pt-5 pb-5">
+        <div class="col-lg-6 align-self-center pt-5 pb-5">
           <h2>Professional Skills</h2>
           <p class="progress-bar-text text-uppercase pt-3">UI/UX Design 75%</p>
           <div class="progress">
@@ -518,17 +534,27 @@
     </div>
   </footer>
 
+  <!-- script для вспливаючої форми -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script> 
+
+    <!-- Шрифтові іконки -->
   <script src="https://kit.fontawesome.com/3c1a0d0b2c.js" crossorigin="anonymous"></script>
+
+  <!-- bootsrap -->
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+
+    <!-- Счетчик цифр -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="js/jquery.spincrement.min.js"></script>
-  <script src="js/slick.min.js"></script>
-  <script src="js/main.js"></script>
-</body>
 
+  <!-- slick slider -->
+  <script src="js/slick.min.js"></script>
+
+  <script src="js/main.js"></script>
+
+</body>
 </html>
