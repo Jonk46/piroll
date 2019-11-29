@@ -50,7 +50,7 @@ ul, li {
 .overlay a {
 	padding: 8px;
 	text-decoration: none;
-	font-size: 36px;
+	font-size: 30px;
 	color: #f5eee8;
 	display: block;
 	transition: 0.3s;
@@ -62,7 +62,7 @@ ul, li {
 
 .overlay .closebtn {
 	position: absolute;
-	top: 50px;
+	top: 0;
 	right: 15px;
 	font-size: 60px;
 }
@@ -450,6 +450,7 @@ a.stripe-black::after {
   bottom: 0;
   left: 50%;
   transform: translate(-50%, 0);
+  padding-left: 0;
 }
 
 .single-item .slick-dots li button {
