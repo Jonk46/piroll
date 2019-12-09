@@ -637,28 +637,11 @@ height: 100%;
 
 /* page about.html end  */
 
-/* 
+/* page contact.html start  */
 
-.top__item-1, .top__item-2, .top__item-3 {
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
+.contact-map {
+  height: 400px;
+  width: 100%;
 }
 
-.top__item-1 {
-  background-image: url(../img/slide-1.jpg);
-}
-
-.top__item-2 {
-  background-image: url(../img/slide-4.jpg);
-}
-
-.top__item-3 {
-  background-image: url(../img/slide-3.jpg);
-}
-
-.top__item-fon {
-  background-color: rgba(0, 0, 0, .35);
-  height: 100vh;
-} */
+/* page contact.html end  */
