@@ -34,5 +34,17 @@
   }
 }
 
-@media (max-width: 575px) {}
+@media (max-width: 575px) {
+  .top__title {
+    font-size: 15px;
+    line-height: 26px;
+  }
+  
+  .top__suptitle {
+    position: relative;
+    font-size: 25px;
+    line-height: 36px;
+    margin-bottom: 40px;
+  }
+}
 
