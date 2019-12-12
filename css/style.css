@@ -20,7 +20,7 @@ ul, li {
 }
 
 .menu-wrapper {
-  height: 75px;
+  height: 100px;
 }
 
 /* burger menu start */
@@ -524,7 +524,10 @@ a.stripe-black::after {
 /* PROJECT-FORM start */
 
 .project-form {
-  background-color: #eaeaea;
+  background: #E0EAFC;
+  background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);
+  background: linear-gradient(to right, #CFDEF3, #E0EAFC);
+  
 }
 
 input.empty-area, textarea.empty-area {
@@ -636,6 +639,137 @@ height: 100%;
 }
 
 /* page about.html end  */
+
+/* services.html start */
+
+/* section SIGN-UP start */
+
+.sign-up input, .sign-up select, .sign-up-form input {
+  font-size: 14px;
+  height: calc(2.5em + 1rem + 2px);
+  border: 1px solid #dfeef3;
+}
+
+.sign-up input, .sign-up select, .sign-up-form input {
+  border-radius: 0;
+}
+
+/* section SIGN-UP end */
+
+
+/* section OUR-BENEFITS start */
+
+.our-benefits-title {
+  color: #556b72;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.our-benefits-description {
+  color: #a0a9b6;
+  line-height: 26px;
+}
+
+/* section OUR-BENEFITS end */
+
+/* section OUR-HOSTING start */
+
+span.upper-title {
+  color: #859aa1;
+  text-transform: uppercase;
+}
+
+.main-title {
+  color: #556b72;
+  font-size: 30px;
+  line-height: 25px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.internal {
+  border: none;
+}
+
+h5.card-title {
+  position: relative;
+  color: #556b72;
+  font-size: 50px;
+  font-weight: 800;
+  padding-left: 25px;
+}
+
+.card-title::before {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 30px;
+  display: block;
+  content: "\0024"; 
+  color: #556b72;
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.card-text {
+  color: #556b72;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+button.btn-hosting {
+  background-color: #52cbf8;
+  border: none;
+  border-radius: 0;
+  width: 185px;
+  height: 40px;
+  font-weight: 800;
+}
+
+.btn-hosting-sign {
+  width: 115px;
+  font-weight: 700;
+  background-color: #ff8261;
+  border: none;
+  border-radius: 0;
+}
+
+/* section OUR-HOSTING end */
+
+/* section SIGN-UP-footer start */
+
+section.sign-up, section.sign-up-footer {
+  background-color: #e7f4f8;
+}
+
+.sign-up-form {
+  padding-right: 0;
+}
+
+.btn-hosting-search {
+  width: 100%;
+}
+
+.btn-sign-up-form {
+  width: 115px;
+}
+
+.btn-hosting-search, .btn-sign-up-form {
+  height: 53px;
+  font-weight: 700;
+  background-color: #ff8261;
+  border: none;
+  border-radius: 0;
+}
+
+.sign-up-form input.form-control-lg {
+  border-radius: 0;
+}
+
+/* section SIGN-UP end */
+/* services.html end */
 
 /* page contact.html start  */
 
