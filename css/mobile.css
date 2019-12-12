@@ -8,6 +8,11 @@
   .page-footer i.fab {
     padding: 0 20px;
   }
+  .img-benefit,
+  .our-benefits-title,
+  .our-benefits-description  {
+    text-align: center;
+  }
 }
 
 @media (min-width: 992px) {
