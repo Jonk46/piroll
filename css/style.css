@@ -704,7 +704,7 @@ h5.card-title {
   bottom: 0;
   top: 0;
   left: 0;
-  right: 30px;
+  right: 35px;
   display: block;
   content: "\0024"; 
   color: #556b72;
@@ -719,21 +719,50 @@ h5.card-title {
   text-transform: uppercase;
 }
 
-button.btn-hosting {
+.card-text-tarif-plan {
+  color: #ffffff;
   background-color: #52cbf8;
-  border: none;
-  border-radius: 0;
-  width: 185px;
-  height: 40px;
   font-weight: 800;
+  line-height: 40px;
+}
+
+.tarif-plan-economy {
+  background-color: #F7A13E;
+}
+
+.tarif-plan-premium {
+  background-color: #2DCC70;
+}
+
+.tarif-plan-business {
+  background-color: #3597DA;
+}
+
+.tarif-plan-first-class {
+  background-color: #E52F62;
 }
 
 .btn-hosting-sign {
   width: 115px;
   font-weight: 700;
-  background-color: #ff8261;
   border: none;
   border-radius: 0;
+}
+
+.btn-hosting-sign.economy {
+  background-color: #ff8261;
+}
+
+.btn-hosting-sign.premium {
+  background-color: #2DCC70;
+}
+
+.btn-hosting-sign.business {
+  background-color: #3597DA;
+}
+
+.btn-hosting-sign.first-class{
+  background-color: #E52F62;
 }
 
 /* section OUR-HOSTING end */
