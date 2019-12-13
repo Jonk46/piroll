@@ -22,8 +22,12 @@
 }
 
 @media (max-width: 767px) {
+  .top__inner,
+  .blockquote-on-slider {
+    width: 75%;
+  }
   .slick-dots {
-    display: none;
+    display: none!important;
   }
   .top-navigation {
     flex-direction: column;
