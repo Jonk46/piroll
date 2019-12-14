@@ -19,6 +19,17 @@
   .icon-burg {
     display: none;
   }
+
+}
+
+@media (max-width: 992px) {
+  .subtitle-about-us,
+  .title-about-us {
+    text-align: center;
+  }
+  .subtitle-about-us {
+    padding: 0;
+  }
 }
 
 @media (max-width: 767px) {
@@ -26,7 +37,7 @@
   .blockquote-on-slider {
     width: 75%;
   }
-  .slick-dots {
+  .top__slider .slick-dots {
     display: none!important;
   }
   .top-navigation {

@@ -6,6 +6,7 @@ font-family: 'Nunito Sans', sans-serif;
 body {
   min-width: 320px;
   font-size: 16px;
+  line-height: 31px;
   /* font-family: 'Nunito Sans', sans-serif; */
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -146,11 +147,10 @@ header .nav-item a:hover::after {
   /* font-family: 'Montserrat', sans-serif; */
 }
 
-.top__title {
+/* .top__title {
   font-size: 15px;
   line-height: 26px;
-  /* font-family: 'Montserrat', sans-serif; */
-}
+} */
 
 .top__suptitle {
   position: relative;
@@ -235,7 +235,7 @@ button.contact-us {
 
 .subtitle-about-us {
   color: #787878;
-  max-width: 585px;
+  padding: 0 170px 0;
 }
 
 .modal-contact-us {
@@ -274,8 +274,8 @@ textarea.modal-empty-area {
 }
 
 .proffesional-skills .right img {
-  width: 570px;
-  height: 570px;
+  width: 500px;
+  height: 500px;
   object-fit: cover;
 }
 
@@ -627,7 +627,6 @@ address strong {
   position: relative;
   font-size: 38px;
   line-height: 44px;
-  margin-bottom: 20px;
 }
 
 /* page about.html end  */
