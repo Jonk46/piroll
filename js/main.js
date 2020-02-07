@@ -17,8 +17,9 @@ $(function(){
 	$('.single-item').slick({
 		arrows: false,
 		dots: true,
-		autoplay: true,
+		autoplay: true, 
 		autoplaySpeed: 2000,
+		adaptiveHeight: true,
 		fade: true,
 	});
 

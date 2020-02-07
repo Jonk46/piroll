@@ -5,7 +5,7 @@ font-family: 'Nunito Sans', sans-serif;
 
 body {
   min-width: 320px;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 31px;
   /* font-family: 'Nunito Sans', sans-serif; */
   font-family: 'Montserrat', sans-serif;
@@ -179,7 +179,7 @@ button.contact-us {
 }
 
 .top__item-2 {
-  background-image: url(../img/slide-4.jpg);
+  background-image: url(../img/slide-2.jpg);
 }
 
 .top__item-3 {
@@ -220,7 +220,7 @@ button.contact-us {
   font-family: "FontAwesome";
   position: absolute;
   right: 0;
-  top: 9px;
+  top: 3px;
   font-size: 15px;
   color: rgba(255, 255, 255, .5);
 }
@@ -429,7 +429,7 @@ a.text-portfolio {
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 500px;
+  min-height: 400px;
 }
 
 .single-item .slick-dots {
@@ -480,11 +480,7 @@ a.text-portfolio {
 }
 
 .blockquote-on-slider {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  width: 80%;
-  transform: translate(-50%, -50%);
+  margin: 8rem auto;
 }
 
 .blockquote-title {
@@ -824,6 +820,10 @@ section.sign-up, section.sign-up-footer {
 /* services.html end */
 
 /* page contact.html start  */
+
+.contact-about-us {
+  color: #787878;
+}
 
 .contact-map {
   height: 400px;

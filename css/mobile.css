@@ -49,6 +49,9 @@
   .nav-item-logo {
     margin: 0 auto;
   }
+  .blockquote-on-slider {
+    width: 80%;
+  }
 }
 
 @media (max-width: 575px) {
