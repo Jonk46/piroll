@@ -5,8 +5,8 @@ font-family: 'Nunito Sans', sans-serif;
 
 body {
   min-width: 320px;
-  font-size: 14px;
-  line-height: 31px;
+  font-size: 16px;
+  line-height: 26px;
   /* font-family: 'Nunito Sans', sans-serif; */
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -292,9 +292,9 @@ textarea.modal-empty-area {
 /* INFORMATION strart */
 
 .information {
-  background: #4CA1AF;
-  background: -webkit-linear-gradient(to bottom, #C4E0E5, #4CA1AF);  
-  background: linear-gradient(to bottom, #C4E0E5, #4CA1AF);  
+  background: #007991;
+  background: -webkit-linear-gradient(to right, #45e8b7, #007991);
+  background: linear-gradient(to right, #45e8b7, #007991);
 }
 
 .info-block-number {
@@ -425,20 +425,20 @@ a.text-portfolio {
 
 .single-item-first {
   background: #007991;
-  background: -webkit-linear-gradient(to right, #78ffd6, #007991);
-  background: linear-gradient(to right, #78ffd6, #007991);
+  background: -webkit-linear-gradient(to right, #45e8b7, #007991);
+  background: linear-gradient(to right, #45e8b7, #007991);
 }
 
 .single-item-second {
   background: #007991;
-  background: -webkit-linear-gradient(to bottom, #78ffd6, #007991);
-  background: linear-gradient(to bottom, #78ffd6, #007991);
+  background: -webkit-linear-gradient(to bottom, #45e8b7, #007991);
+  background: linear-gradient(to bottom, #45e8b7, #007991);
 }
 
 .single-item-third {
   background: #007991;
-  background: -webkit-linear-gradient(to left, #78ffd6, #007991);
-  background: linear-gradient(to left, #78ffd6, #007991);
+  background: -webkit-linear-gradient(to left, #45e8b7, #007991);
+  background: linear-gradient(to left, #45e8b7, #007991);
 }
 
 .single-item-first, .single-item-second, .single-item-third {
@@ -551,7 +551,6 @@ button.button-message {
 }
 
 .btn-primary:hover {
-  color: #556b72;
   background-color: #71E4E0;
   border-color: #71E4E0;
 }
@@ -654,7 +653,7 @@ address strong {
 }
 
 .sign-up input, .sign-up select, .sign-up-form input {
-  border-radius: 3px;
+  border-radius: 25px;
 }
 
 .sign-up-form input {
@@ -681,7 +680,7 @@ address strong {
 /* section OUR-HOSTING start */
 
 span.upper-title {
-  color: #859aa1;
+  color: #ffffff;
   text-transform: uppercase;
 }
 
@@ -742,20 +741,20 @@ h5.card-title {
   border-radius: 50px;
 }
 
-.tarif-plan-economy {
-  background-color: #F7A13E;
+.tarif-plan-economy, .btn-hosting-sign.economy {
+  background-color: #45E8B7;
 }
 
-.tarif-plan-premium {
-  background-color: #2DCC70;
+.tarif-plan-premium, .btn-hosting-sign.premium {
+  background-color: #1DA7A1;
 }
 
-.tarif-plan-business {
-  background-color: #3597DA;
+.tarif-plan-business, .btn-hosting-sign.business {
+  background-color: #31C8AC;
 }
 
-.tarif-plan-first-class {
-  background-color: #E52F62;
+.tarif-plan-first-class, .btn-hosting-sign.first-class {
+  background-color: #007A91;
 }
 
 .btn-hosting-sign {
@@ -763,22 +762,6 @@ h5.card-title {
   font-weight: 700;
   border: none;
   border-radius: 50px;
-}
-
-.btn-hosting-sign.economy {
-  background-color: #F7A13E;
-}
-
-.btn-hosting-sign.premium {
-  background-color: #2DCC70;
-}
-
-.btn-hosting-sign.business {
-  background-color: #3597DA;
-}
-
-.btn-hosting-sign.first-class {
-  background-color: #E52F62;
 }
 
 /* section OUR-HOSTING end */
@@ -798,7 +781,9 @@ h5.card-title {
 }
 
 section.sign-up, section.sign-up-footer {
-  background-color: #e7f4f8;
+  background: #007991;
+  background: -webkit-linear-gradient(to bottom, #45e8b7, #007991);
+  background: linear-gradient(to bottom, #45e8b7, #007991);
 }
 
 .btn-hosting-search {
@@ -812,7 +797,8 @@ section.sign-up, section.sign-up-footer {
 .btn-hosting-search, .btn-sign-up-form {
   height: 50px;
   font-weight: 700;
-  background-color: #F7A13E;
+  color: #556b72;
+  background-color: #45E8B7;
   border: none;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;

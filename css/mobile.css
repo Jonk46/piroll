@@ -8,9 +8,7 @@
   .page-footer i.fab {
     padding: 0 20px;
   }
-  .img-benefit,
-  .our-benefits-title,
-  .our-benefits-description  {
+  .img-benefit, .our-benefits-title, .our-benefits-description {
     text-align: center;
   }
 }
@@ -19,12 +17,10 @@
   .icon-burg {
     display: none;
   }
-
 }
 
 @media (max-width: 992px) {
-  .subtitle-about-us,
-  .title-about-us {
+  .subtitle-about-us, .title-about-us {
     text-align: center;
   }
   .subtitle-about-us {
@@ -33,8 +29,7 @@
 }
 
 @media (max-width: 767px) {
-  .top__inner,
-  .blockquote-on-slider {
+  .top__inner, .blockquote-on-slider {
     width: 75%;
   }
   .top__slider .slick-dots {
@@ -64,5 +59,8 @@
     font-size: 25px;
     line-height: 36px;
     margin-bottom: 40px;
+  }
+  .dom-mobile {
+    margin: 15px 0;
   }
 }
