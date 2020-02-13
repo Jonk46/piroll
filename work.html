@@ -8,6 +8,8 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/slick.css">
+
+  <link rel="stylesheet" type="text/css" href="jquery.fancybox.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/mobile.css">
   <title>Piroll</title>
@@ -59,7 +61,7 @@
     <div class="container-fluid">
       <div class="row justify-content-between top-gallery">
         <div class="col-lg-3 col-md-6 gallery-paddings">
-          <a href="#">
+          <a href="#work-item-1" target="_self">
             <div class="image-wrapper">
               <img class="gallery-img" src="img/img_portfolio-1.jpg" alt="img_portfolio-1">
               <img class="middle" src="img/overlay-image.png" alt="overlay-image">
@@ -67,7 +69,7 @@
           </a>
         </div>
         <div class="col-lg-3 col-md-6 gallery-paddings">
-          <a href="#">
+          <a href="#work-item-2" target="_self">
             <div class="image-wrapper">
               <img class="gallery-img" src="img/img_portfolio-2.jpg" alt="img_portfolio-2">
               <img class="middle" src="img/overlay-image.png" alt="overlay-image">
@@ -75,7 +77,7 @@
           </a>
         </div>
         <div class="col-lg-3 col-md-6 gallery-paddings">
-          <a href="#">
+          <a href="#work-item-3" target="_self">
             <div class="image-wrapper">
               <img class="gallery-img" src="img/img_portfolio-3.jpg" alt="img_portfolio-3">
               <img class="middle" src="img/overlay-image.png" alt="overlay-image">
@@ -83,7 +85,7 @@
           </a>
         </div>
         <div class="col-lg-3 col-md-6 gallery-paddings">
-          <a href="#">
+          <a href="#work-item-4" target="_self">
             <div class="image-wrapper">
               <img class="gallery-img" src="img/img_portfolio-4.jpg" alt="img_portfolio-4">
               <img class="middle" src="img/overlay-image.png" alt="overlay-image">
@@ -92,7 +94,7 @@
         </div>
 
         <div class="col-lg-3 col-md-6 gallery-paddings">
-          <a href="#">
+          <a href="#work-item-5" target="_self">
             <div class="image-wrapper">
               <img class="gallery-img" src="img/img_portfolio-5.jpg" alt="img_portfolio-5">
               <img class="middle" src="img/overlay-image.png" alt="overlay-image">
@@ -100,7 +102,7 @@
           </a>
         </div>
         <div class="col-lg-3 col-md-6 gallery-paddings">
-          <a href="#">
+          <a href="#work-item-6" target="_self">
             <div class="image-wrapper">
               <img class="gallery-img" src="img/img_portfolio-6.jpg" alt="img_portfolio-6">
               <img class="middle" src="img/overlay-image.png" alt="overlay-image">
@@ -108,7 +110,7 @@
           </a>
         </div>
         <div class="col-lg-3 col-md-6 gallery-paddings">
-          <a href="#">
+          <a href="#work-item-7" target="_self">
             <div class="image-wrapper">
               <img class="gallery-img" src="img/img_portfolio-7.jpg" alt="img_portfolio-7">
               <img class="middle" src="img/overlay-image.png" alt="overlay-image">
@@ -116,7 +118,7 @@
           </a>
         </div>
         <div class="col-lg-3 col-md-6 gallery-paddings">
-          <a href="#">
+          <a href="#work-item-8" target="_self">
             <div class="image-wrapper">
               <img class="gallery-img" src="img/img_portfolio-8.jpg" alt="img_portfolio-8">
               <img class="middle" src="img/overlay-image.png" alt="overlay-image">
@@ -124,40 +126,118 @@
           </a>
         </div>
 
-        <div class="col-lg-3 col-md-6 gallery-paddings">
-          <a href="#">
-            <div class="image-wrapper">
-              <img class="gallery-img" src="img/img_portfolio-3.jpg" alt="img_portfolio-9">
-              <img class="middle" src="img/overlay-image.png" alt="overlay-image">
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-6 gallery-paddings">
-          <a href="#">
-            <div class="image-wrapper">
-              <img class="gallery-img" src="img/img_portfolio-2.jpg" alt="img_portfolio-10">
-              <img class="middle" src="img/overlay-image.png" alt="overlay-image">
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-6 gallery-paddings">
-          <a href="#">
-            <div class="image-wrapper">
-              <img class="gallery-img" src="img/img_portfolio-4.jpg" alt="img_portfolio-11">
-              <img class="middle" src="img/overlay-image.png" alt="overlay-image">
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-6 gallery-paddings">
-          <a href="#">
-            <div class="image-wrapper">
-              <img class="gallery-img" src="img/img_portfolio-1.jpg" alt="img_portfolio-12">
-              <img class="middle" src="img/overlay-image.png" alt="overlay-image">
-            </div>
-          </a>
-        </div>
-
       </div>
+    </div>
+  </section>
+
+  <section class="graphic-designer pb-5 pt-5">
+    <div class="container">
+      <h2 class="text-center pb-3">Our works</h2>
+      <p class="mx-auto text-center subtitle-about-us">We create holistic experiences to satisfy every digital need. Our
+        focus is on achieving your goals through solutions that deliver results. The strategic solutions we provide
+        enable our clients to reach new heights leveraging our expertise on all digital channels.</p>
+    </div>
+  </section>
+
+  <section class="detailed-work">
+    <div class="container">
+      <div id="work-item-1" class="row d-flex flex-wrap pt-5 pb-5">
+        <div class="col-lg-7 pb-3">
+          <div class="scale">
+            <img class="gallery-img" src="img/img_portfolio-1.jpg" alt="img_portfolio-1">
+          </div>
+        </div>
+        <div class="col-lg-5 align-self-center">
+          <h2 class="text-left main-title pb-2">Pentagram</h2>
+          <p>“The world’s largest independently owned design studio,” Pentagram is owned and run equally by 25 partners—all of whom are leaders in the design industry. Their star-studded list of past and present partners includes names like Alan Fletcher, Bob Gill, Paula Scher and Michael Bierut.</p>
+        </div>
+      </div>
+
+      <div id="work-item-2" class="row d-flex flex-wrap-reverse pt-5 pb-5">
+        <div class="col-lg-5 align-self-center">
+          <h2 class="text-left main-title pb-2">Landor</h2>
+          <p>In their own words, Landor is “the world’s preeminent brand consulting firm.” Headquartered in San Francisco and operating offices in 25 world-class cities, this design giant has one of the most enviable client lists on the planet.</p>
+        </div>
+        <div class="col-lg-7 pb-3">
+          <div class="scale">
+            <img class="gallery-img" src="img/img_portfolio-2.jpg" alt="img_portfolio-1">
+          </div>
+        </div>
+      </div>
+
+      <div id="work-item-3" class="row d-flex flex-wrap pt-5 pb-5">
+        <div class="col-lg-7 pb-3">
+          <div class="scale">
+            <img class="gallery-img" src="img/img_portfolio-3.jpg" alt="img_portfolio-1">
+          </div>
+        </div>
+        <div class="col-lg-5 align-self-center">
+          <h2 class="text-left main-title pb-2">Wolff Olins</h2>
+          <p>“We make things different to make a difference,” says brand consultancy agency, Wolff Olins. Their solid reputation has lent itself to an all-star list of clients, including the 2012 Summer Olympics in London, whose logo was rumored to have a $625,000 price tag.</p>
+        </div>
+      </div>
+
+      <div id="work-item-4" class="row d-flex flex-wrap-reverse pt-5 pb-5">
+        <div class="col-lg-5 align-self-center">
+          <h2 class="text-left main-title pb-2">Meta Design</h2>
+          <p>One of the leading design firms in the world, Meta Design has crafted compelling brand experiences for more than 20 years. From reinventing Apple’s Mac OS design system to collaborating on Adobe’s packaging and identity, their caliber of work resonates on a global level that’s tough to match.</p>
+        </div>
+        <div class="col-lg-7 pb-3">
+          <div class="scale">
+            <img class="gallery-img" src="img/img_portfolio-4.jpg" alt="img_portfolio-1">
+          </div>
+        </div>
+      </div>
+
+      <div id="work-item-5" class="row d-flex flex-wrap pt-5 pb-5">
+        <div class="col-lg-7 pb-3">
+          <div class="scale">
+            <img class="gallery-img" src="img/img_portfolio-5.jpg" alt="img_portfolio-1">
+          </div>
+        </div>
+        <div class="col-lg-5 align-self-center">
+          <h2 class="text-left main-title pb-2">Happy Cog</h2>
+          <p>This New York-based firm was founded by web design guru Jeffrey Zeldman and has won more web design awards than just about anybody. Known for their engaging web environments, Happy Cog keeps their high-profile clients happy with their impressive web design, development, and user experience consultancy.
+            In their own words, Happy Cog is the graphic design studio which will “help you craft your message, target the right audiences, compel them to act and measure the results.</p>
+        </div>
+      </div>
+
+      <div id="work-item-6" class="row d-flex flex-wrap-reverse pt-5 pb-5">
+        <div class="col-lg-5 align-self-center">
+          <h2 class="text-left main-title pb-2">Pearlfisher</h2>
+          <p>Pearlfisher is all about “designing for life,” operating with a mindset which focuses on creating “simpler, lighter, more desirable ideas for the future.” With more than two decades of experience and a growing list of prestigious awards, Pearlfisher’s “visionary group of futurists, strategists, designers and realizers” have made a lasting impact on the global graphic design landscape.</p>
+        </div>
+        <div class="col-lg-7 pb-3">
+          <div class="scale">
+            <img class="gallery-img" src="img/img_portfolio-6.jpg" alt="img_portfolio-1">
+          </div>
+        </div>
+      </div>
+
+      <div id="work-item-7" class="row d-flex flex-wrap pt-5 pb-5">
+        <div class="col-lg-7 pb-3">
+          <div class="scale">
+            <img class="gallery-img" src="img/img_portfolio-7.jpg" alt="img_portfolio-1">
+          </div>
+        </div>
+        <div class="col-lg-5 align-self-center">
+          <h2 class="text-left main-title pb-2">Saffron Brand</h2>
+          <p>Based in Madrid, Saffron Brand Consultants‘ approach is to help “transform brands and businesses with the clarity of rigorous thinking and the courage of bold ideas.” Started back in 2001, the firm has climbed its way to the top by embracing globalization and the potential of emerging markets.</p>
+        </div>
+      </div>
+
+      <div id="work-item-8" class="row d-flex flex-wrap-reverse pt-5 pb-5">
+        <div class="col-lg-5 align-self-center">
+          <h2 class="text-left main-title pb-2">Studio Dumbar</h2>
+          <p>Since 1977, Studio Dumbar has created meaningful brands “from strategy to reality.” What makes this firm unique is that it’s part of a larger organization, Dept, which is home to 750 experts in digital media. Talk about connections, eh?</p>
+        </div>
+        <div class="col-lg-7 pb-3">
+          <div class="scale">
+            <img class="gallery-img" src="img/img_portfolio-8.jpg" alt="img_portfolio-1">
+          </div>
+        </div>
+      </div>
+
     </div>
   </section>
 
@@ -200,9 +280,8 @@
           <h5 class="font-weight-bold text-uppercase mt-3 mb-4 footer-title">Contact us</h5>
           <address>
             <strong>Address:</strong>
-            <a
-                href="https://www.google.com/maps/place/James+Smith+Ave,+Maddiston,+Falkirk,+%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%D0%B1%D1%80%D0%B8%D1%82%D0%B0%D0%BD%D1%96%D1%8F/@55.9718228,-3.7120103,17z/data=!3m1!4b1!4m5!3m4!1s0x488879d522f1cf5d:0x1a62be85df3a93a3!8m2!3d55.9718198!4d-3.7098216"
-                target="_blank">Mr James Smith, 7</a><br>
+            <a href="https://www.google.com/maps/place/James+Smith+Ave,+Maddiston,+Falkirk,+%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%D0%B1%D1%80%D0%B8%D1%82%D0%B0%D0%BD%D1%96%D1%8F/@55.9718228,-3.7120103,17z/data=!3m1!4b1!4m5!3m4!1s0x488879d522f1cf5d:0x1a62be85df3a93a3!8m2!3d55.9718198!4d-3.7098216"
+              target="_blank">Mr James Smith, 7</a><br>
             <strong>Email: </strong><a href="mailto:info@hosting.com" target="_blank">info@hosting.com</a><br>
             <strong>Call: </strong><a href="tel:+877765557888">+87 7765 557 888</a>
           </address>
@@ -223,7 +302,7 @@
   <!-- script для вспливаючої форми 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>-->
+    crossorigin="anonymous"></script> -->
 
   <!-- Шрифтові іконки -->
   <script src="https://kit.fontawesome.com/3c1a0d0b2c.js" crossorigin="anonymous"></script>

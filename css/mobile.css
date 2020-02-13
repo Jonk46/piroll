@@ -26,6 +26,12 @@
   .subtitle-about-us {
     padding: 0;
   }
+  ul.list-unstyled li {
+    display: flex;
+    justify-content: center;
+    flex-basis: 51%;
+    margin: 0 auto;
+}
 }
 
 @media (max-width: 767px) {

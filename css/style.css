@@ -24,8 +24,8 @@ ul, li {
 .menu-wrapper {
   height: 100px;
   background: #4CA1AF;
-  background: -webkit-linear-gradient(to bottom, #C4E0E5, #4CA1AF);  
-  background: linear-gradient(to bottom, #C4E0E5, #4CA1AF);  
+  background: -webkit-linear-gradient(to bottom, #C4E0E5, #4CA1AF);
+  background: linear-gradient(to bottom, #C4E0E5, #4CA1AF);
 }
 
 /* burger menu start */
@@ -155,17 +155,11 @@ header .nav-item a:hover::after {
   /* font-family: 'Montserrat', sans-serif; */
 }
 
-/* .top__title {
-  font-size: 15px;
-  line-height: 26px;
-} */
-
 .top__suptitle {
   position: relative;
-  font-size: 38px;
-  line-height: 44px;
+  font-size: 50px;
+  line-height: 75px;
   /* font-family: 'Italianno', cursive; */
-  margin-bottom: 40px;
 }
 
 button.contact-us {
@@ -241,9 +235,12 @@ button.contact-us {
 
 /* ABOUT-US start */
 
-.subtitle-about-us {
+.subtitle-about-us, .subtitle-about-me {
   color: #787878;
-  padding: 0 170px 0;
+}
+
+.subtitle-about-us {
+  padding: 0 110px 0;
 }
 
 .modal-contact-us {
@@ -389,6 +386,19 @@ a.text-portfolio {
   opacity: 1;
 }
 
+.scale {
+  display: inline-block;
+  overflow: hidden;
+}
+
+.scale img {
+  transition: 1s;
+}
+
+.scale img:hover {
+  transform: scale(1.2);
+}
+
 /* SECTION-GALLERY end */
 
 /* WORK-PROCESS start */
@@ -527,9 +537,10 @@ a.text-portfolio {
 /* PROJECT-FORM start */
 
 .project-form {
-  background: #E0EAFC;
+  /* background: #E0EAFC;
   background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);
-  background: linear-gradient(to right, #CFDEF3, #E0EAFC);
+  background: linear-gradient(to right, #CFDEF3, #E0EAFC); */
+  background: linear-gradient(to bottom, #45e8b7, #007991);
 }
 
 input.empty-area, textarea.empty-area {
@@ -757,6 +768,15 @@ h5.card-title {
   background-color: #007A91;
 }
 
+/* s */
+.btn-hosting-sign.economy:hover, 
+.btn-hosting-sign.premium:hover, 
+.btn-hosting-sign.business:hover, 
+.btn-hosting-sign.first-class:hover {
+  background-color: #141414;
+}
+/* s */
+
 .btn-hosting-sign {
   width: 115px;
   font-weight: 700;
@@ -767,6 +787,17 @@ h5.card-title {
 /* section OUR-HOSTING end */
 
 /* section SIGN-UP-footer start */
+
+ul.list-unstyled {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul.list-unstyled li {
+  display: flex;
+  justify-content: flex-start;
+  flex-basis: 40%;
+}
 
 .sign-up-form, .sign-up-button {
   flex-grow: 0;
