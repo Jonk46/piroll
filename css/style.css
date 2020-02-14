@@ -22,10 +22,8 @@ ul, li {
 }
 
 .menu-wrapper {
-  height: 100px;
-  background: #4CA1AF;
-  background: -webkit-linear-gradient(to bottom, #C4E0E5, #4CA1AF);
-  background: linear-gradient(to bottom, #C4E0E5, #4CA1AF);
+  height: 90px;
+  background-color: #141414;
 }
 
 /* burger menu start */
