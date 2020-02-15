@@ -1,13 +1,7 @@
-/* 
-font-family: 'Montserrat', sans-serif;
-font-family: 'Nunito Sans', sans-serif;
-*/
-
 body {
   min-width: 320px;
   font-size: 16px;
   line-height: 26px;
-  /* font-family: 'Nunito Sans', sans-serif; */
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
 }
@@ -41,12 +35,9 @@ ul, li {
   z-index: 999;
   top: 0;
   left: 0;
-  /* new gradient */
   background: #141E30;
   background: -webkit-linear-gradient(to right, #243B55, #141E30);
   background: linear-gradient(to right, #243B55, #141E30);
-  /* background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.9); */
   overflow-y: hidden;
   transition: 0.5s;
 }
@@ -70,11 +61,12 @@ ul, li {
 
 .overlay a:hover, .overlay a:focus {
   color: #f1f1f1;
+  background-color: #4e4e4e;
 }
 
 .overlay .closebtn {
   position: absolute;
-  top: 20px;
+  top: 27px;
   right: 23px;
   font-size: 65px;
 }
@@ -89,17 +81,6 @@ header {
   width: 100%;
   z-index: 15;
 }
-
-/* як вставити логотип svg ??? */
-
-/* .navbar-brand {
-  display: block;
-  text-indent: -9999px;
-  width: auto;
-  height: 25px;
-  background: url(../img/icon-logo.svg);
-  background-size: contain;
-} */
 
 .navbar-light .navbar-nav .nav-link {
   color: #ffffff;
@@ -146,25 +127,15 @@ header .nav-item a:hover::after {
   z-index: 10;
   left: 50%;
   top: 50%;
-  /* width: 75%; */
   text-align: center;
   transform: translate(-50%, -50%);
   color: #fff;
-  /* font-family: 'Montserrat', sans-serif; */
 }
 
 .top__suptitle {
   position: relative;
   font-size: 50px;
   line-height: 75px;
-  /* font-family: 'Italianno', cursive; */
-}
-
-button.contact-us {
-  color: #fff;
-  background-color: #10c9c3;
-  border-color: #10c9c3;
-  border-radius: 25px;
 }
 
 .top__item-1, .top__item-2, .top__item-3 {
@@ -293,7 +264,6 @@ textarea.modal-empty-area {
 }
 
 .info-block-number {
-  /* font-family: 'Montserrat', sans-serif; */
   font-weight: 500;
   color: #ffffff;
   font-size: 20px;
@@ -302,7 +272,6 @@ textarea.modal-empty-area {
 
 .info-block-name {
   position: relative;
-  /* font-family: 'Montserrat', sans-serif; */
   font-weight: 500;
   color: #ffffff;
   font-size: 12px;
@@ -341,7 +310,6 @@ textarea.modal-empty-area {
 }
 
 a.text-portfolio {
-  /* font-family: 'Public Sans', sans-serif; */
   color: #fff;
   margin: 0 0 1rem 0;
   font-size: 30px;
@@ -535,9 +503,6 @@ a.text-portfolio {
 /* PROJECT-FORM start */
 
 .project-form {
-  /* background: #E0EAFC;
-  background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);
-  background: linear-gradient(to right, #CFDEF3, #E0EAFC); */
   background: linear-gradient(to bottom, #45e8b7, #007991);
 }
 
@@ -550,13 +515,6 @@ input.empty-area, textarea.empty-area {
 textarea.empty-area {
   resize: none;
   overflow: auto;
-}
-
-button.button-message {
-  color: #fff;
-  background-color: #4bcaff;
-  border-color: #4bcaff;
-  border-radius: 25px;
 }
 
 .btn-primary:hover {
@@ -626,7 +584,7 @@ address strong {
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 400px;
+  height: 100vh;
 }
 
 .opacity {
@@ -645,8 +603,8 @@ address strong {
 
 .top__suptitle-about {
   position: relative;
-  font-size: 38px;
-  line-height: 44px;
+  font-size: 50px;
+  line-height: 75px;
 }
 
 /* page about.html end  */
@@ -767,12 +725,11 @@ h5.card-title {
 }
 
 /* s */
-.btn-hosting-sign.economy:hover, 
-.btn-hosting-sign.premium:hover, 
-.btn-hosting-sign.business:hover, 
-.btn-hosting-sign.first-class:hover {
+
+.btn-hosting-sign.economy:hover, .btn-hosting-sign.premium:hover, .btn-hosting-sign.business:hover, .btn-hosting-sign.first-class:hover {
   background-color: #141414;
 }
+
 /* s */
 
 .btn-hosting-sign {
@@ -823,19 +780,21 @@ section.sign-up, section.sign-up-footer {
   width: 115px;
 }
 
-.btn-hosting-search, .btn-sign-up-form {
+.btn-hosting-search, .btn-sign-up-form, .contact-us, .button-message {
+  font-size: 14px;
   height: 50px;
   font-weight: 700;
   color: #556b72;
   background-color: #45E8B7;
   border: none;
+  border-radius: 25px;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
 
-.btn-hosting-search {
+.btn-hosting-search, .contact-us, .button-message {
   border-top-left-radius: 25px;
   border-bottom-left-radius: 25px;
 }
@@ -850,10 +809,6 @@ section.sign-up, section.sign-up-footer {
 /* services.html end */
 
 /* page contact.html start  */
-
-.contact-about-us {
-  color: #787878;
-}
 
 .contact-map {
   height: 400px;

@@ -1,5 +1,3 @@
-@media (min-width: 1200px) {}
-
 @media (max-width: 991px) {
   .page-footer, .footer-logo {
     text-align: center;
@@ -31,7 +29,7 @@
     justify-content: center;
     flex-basis: 51%;
     margin: 0 auto;
-}
+  }
 }
 
 @media (max-width: 767px) {
