@@ -1,5 +1,3 @@
-// slick slider
-
 $(function () {
 	$('.top__slider').slick({
 		arrows: false,
