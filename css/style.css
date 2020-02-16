@@ -70,8 +70,8 @@ h2 {
 
 .overlay .closebtn {
   position: absolute;
-  top: 27px;
-  right: 23px;
+  top: 6vh;
+  right: 6vw;
   font-size: 65px;
 }
 
