@@ -240,7 +240,9 @@ textarea.modal-empty-area {
 }
 
 .progress-bar {
-  background-color: #10c9c3;
+  background: #616161;
+  background: -webkit-linear-gradient(to left, #9bc5c3, #616161);  
+  background: linear-gradient(to left, #9bc5c3, #616161);  
 }
 
 .progress {
@@ -258,49 +260,6 @@ textarea.modal-empty-area {
 }
 
 /* PROFFESIONALS-SKILLS end */
-
-/* INFORMATION strart */
-
-.information {
-  background: #007991;
-  background: -webkit-linear-gradient(to right, #45e8b7, #007991);
-  background: linear-gradient(to right, #45e8b7, #007991);
-}
-
-.info-block-number {
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 20px;
-  line-height: 26px;
-}
-
-.info-block-name {
-  position: relative;
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 12px;
-  line-height: 30px;
-}
-
-.info-block {
-  position: relative;
-  padding-left: 100px;
-}
-
-.info-block::before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 70px;
-  width: auto;
-  background-image: url(../img/icon-custom.svg);
-  background-repeat: no-repeat;
-}
-
-/* INFORMATION end */
 
 /* SECTION-GALLERY start */
 
@@ -395,21 +354,21 @@ a.text-portfolio {
 }
 
 .single-item-first {
-  background: #007991;
-  background: -webkit-linear-gradient(to right, #45e8b7, #007991);
-  background: linear-gradient(to right, #45e8b7, #007991);
+  background: #616161;
+  background: -webkit-linear-gradient(to right, #9bc5c3, #616161);  
+  background: linear-gradient(to right, #9bc5c3, #616161); /
 }
 
 .single-item-second {
-  background: #007991;
-  background: -webkit-linear-gradient(to bottom, #45e8b7, #007991);
-  background: linear-gradient(to bottom, #45e8b7, #007991);
+  background: #616161; 
+  background: -webkit-linear-gradient(to bottom, #9bc5c3, #616161); 
+  background: linear-gradient(to bottom, #9bc5c3, #616161); 
 }
 
 .single-item-third {
-  background: #007991;
-  background: -webkit-linear-gradient(to left, #45e8b7, #007991);
-  background: linear-gradient(to left, #45e8b7, #007991);
+  background: #616161;  
+  background: -webkit-linear-gradient(to left, #9bc5c3, #616161);  
+  background: linear-gradient(to left, #9bc5c3, #616161);
 }
 
 .single-item-first, .single-item-second, .single-item-third {
@@ -503,7 +462,9 @@ a.text-portfolio {
 /* PROJECT-FORM start */
 
 .project-form {
-  background: linear-gradient(to top, #45e8b7, #007991);
+  background: #616161; 
+  background: -webkit-linear-gradient(to left, #9bc5c3, #616161); 
+  background: linear-gradient(to left, #9bc5c3, #616161); 
 }
 
 input.empty-area, textarea.empty-area {
@@ -519,8 +480,8 @@ textarea.empty-area {
 
 .btn-primary:hover {
   color: #556b72;
-  background-color: #45e8b7;
-  border-color: #45e8b7;
+  background-color: #E1CC60;
+  border-color: #E1CC60;
 }
 
 /* PROJECT-FORM end */
@@ -709,29 +670,24 @@ h5.card-title {
 }
 
 .tarif-plan-economy, .btn-hosting-sign.economy {
-  background-color: #45E8B7;
+  background-color: #B98083;
 }
 
 .tarif-plan-premium, .btn-hosting-sign.premium {
-  background-color: #1DA7A1;
+  background-color: #8C7078;
 }
 
 .tarif-plan-business, .btn-hosting-sign.business {
-  background-color: #31C8AC;
+  background-color: #5C5E6B;
 }
 
 .tarif-plan-first-class, .btn-hosting-sign.first-class {
-  background-color: #007A91;
+  background-color: #18425B;
 }
-
-/* s */
 
 .btn-hosting-sign.economy:hover, .btn-hosting-sign.premium:hover, .btn-hosting-sign.business:hover, .btn-hosting-sign.first-class:hover {
-  color: #ffffff;
-  background-color: #141414;
+  background-color: #E1CC60;
 }
-
-/* s */
 
 .btn-hosting-sign {
   width: 115px;
@@ -768,9 +724,9 @@ ul.list-unstyled li {
 }
 
 section.sign-up, section.sign-up-footer {
-  background: #007991;
-  background: -webkit-linear-gradient(to bottom, #45e8b7, #007991);
-  background: linear-gradient(to bottom, #45e8b7, #007991);
+  background: #616161;  
+  background: -webkit-linear-gradient(to left, #9bc5c3, #616161); 
+  background: linear-gradient(to right, #9bc5c3, #616161);
 }
 
 .btn-hosting-search {
@@ -786,7 +742,7 @@ section.sign-up, section.sign-up-footer {
   padding: 15px;
   font-weight: 700;
   color: #ffffff;
-  background-color: #556b72;
+  background-color: #60465A;
   border: none;
   border-radius: 25px;
   border-top-right-radius: 25px;
